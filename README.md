@@ -6,7 +6,7 @@ This project explores classical and modern cryptography by implementing:
 2. *Hybrid Modern Cryptosystem* (RSA + AES/Triple DES)
 
 ## Project Structure
-
+...
 cryptography_project/
 ├── task_i/
 │   ├── task_i.py          # Implementation of Playfair + Rail Fence cipher
@@ -14,8 +14,8 @@ cryptography_project/
 ├── task_ii/
 │   ├── task_ii.py         # Implementation of RSA + AES hybrid encryption
 │   ├── task_ii_output.txt # Sample outputs for Task II
-├── README.md              # Project documentation
-
+├── README.md
+...
 
 ## Installation
 Ensure Python 3.x is installed, then install dependencies:
