@@ -1,0 +1,124 @@
+
+Generating keys:
+
+Welcome to the Interactive Hybrid Cryptosystem (RSA + AES)!
+Type 'G' to generate RSA keys, 'E' for encryption, or 'D' for decryption: G
+
+Generating RSA Key Pair...
+
+Public Key (Saved to public.pem, send this to the other party):
+ -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyQ3912KUV9lz4gd/r/BW
+9MCPOBgiBCDcgNWc1bQA5fvx0/3LyQ8m9vlCB6sKBNbnBz5I5Q0aCeASDpwN7otm
+yghdYWC2mDlwbzmlivG7o7VxpnfJ+REmX/FR5+lvWEWh70D34VFfGI7qJc/NMWbO
+nkAt8Bi98gunZcw26XspoXHR1J7J+wuknvY6Mgh35BhTY2kybW4FssPqAaSE2MRJ
+wyS/Oeu4MOLUvWTwqlwMWLhnhp4tm8cWclLKTfwIr/7xn77SDS7jB0mzyvFDQ2TR
+wBgFq6q8Jw33Q92KQtmM1ELFJRk6QVo67DCYZQXGsFx6XH7cta7LL9oCDh2Tj5p+
+WwIDAQAB
+-----END PUBLIC KEY-----
+
+Private Key (Saved to private.pem, KEEP THIS SECRET!):
+ -----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAyQ3912KUV9lz4gd/r/BW9MCPOBgiBCDcgNWc1bQA5fvx0/3L
+yQ8m9vlCB6sKBNbnBz5I5Q0aCeASDpwN7otmyghdYWC2mDlwbzmlivG7o7VxpnfJ
++REmX/FR5+lvWEWh70D34VFfGI7qJc/NMWbOnkAt8Bi98gunZcw26XspoXHR1J7J
++wuknvY6Mgh35BhTY2kybW4FssPqAaSE2MRJwyS/Oeu4MOLUvWTwqlwMWLhnhp4t
+m8cWclLKTfwIr/7xn77SDS7jB0mzyvFDQ2TRwBgFq6q8Jw33Q92KQtmM1ELFJRk6
+QVo67DCYZQXGsFx6XH7cta7LL9oCDh2Tj5p+WwIDAQABAoIBAAIGVgwZPg00b2pT
+UQHglb+ZQNf7xjvsaMwTWqT8TxYB14mfALJhqK7MC9Iv8sXhtCnqgqlr3FtFGmlz
+QOCqHrriIq6cXrphubQlDHm9vXoElcRraGlNtuk4cO649xoYeW0DZnuqah7BMbJ3
+yUU6F9KYKt5EIYWSgHkR+WuYhe7ORglAj5JBFpvNJlfcX66VPWb98hRAfZLhZxbc
+XbuQfDDuht8MZNkD/8XtXLyJStnSDo8tJxUHPqDyNPardtgKzI7ewlwrUa6GG2Gt
+gDBuqPjYNiv2TWnTQaww7KWW/APhuc9J0G+wbU04Z3PVwHOVVRRKnlGptxwTXqct
+OnO+d8ECgYEAyl9kbpfPUtmtl6qax2iBxAR11YurHEjIrurk/45imkC7cmJkUyg1
+1vq7IVFUdi+sqZJaTrA8eSIDaPClehdxmA2WNWA41IpBFBr1NB/VwxFoWFZixFld
+eoXDvtQzsKEOlOnVp6oaQDs8s6l0NvGpA7L44nLgfmBpnwl0CEwiT1MCgYEA/lUw
+un1bA9mMEdia3FRxVFLKm6RBbYlon9XLs9zqUFFClrQhCPKgRe83hCN9vUrTvXnO
+oZCmrME/H9xlfCtPDnNkpNlNxmdk+cJCtGa4Z0+VrtE361eDsCgl4brQrhgnHsV+
+oxMJSrsm1R/zMiLbi8Dp0ELK5bc0Xu1vgZPKm9kCgYEAjYWuT2TcuLy/mAvX19Gu
+xey0ltTooYwIw8JCyLDDJcpVC8XhEQJSvHd1O/SLU2c9oQxXGSZH9BIkPlPj9QDG
+EKaXv9X9iCzzG+NKTNxiedsHlJc81MEGDTPUUvRE/aVz9BGet3TOjNKgPagoPHA9
+WPfk8z+Q3PABjRVoTpEngT8CgYEArxZ8tlXoG21ftUV1zuq/HjrkymM4u6zV/vsT
+Ah66nFJk0hTtjRhi5+I4SNqaDH9/5zf83VMUu2dKCqgSoXm7MgqUpbwHg+fYJuzq
+OQFiP5UVScU0huq3eMUa1xxh3wg3nkJ93MwVIIJYyG33YXOHyt0i2cGxppUKE7PH
+iN/yonkCgYB/WWUbpGaWNfmsujBxXdkKXAvgikcJgbLyJnRpUg9hIC3aG5a0R1uy
+MkhS+naIz54Kwhasmb3Xex3o4x5X3SbTbkvUzuTovu56Gl4bij3ubmHxkabBQLiC
+sQFfnyodNgLZNarX1TaipGYP8NPtxCkIWnQNHz2GnnTBRgLpruzqEA==
+-----END RSA PRIVATE KEY-----
+
+Press Enter to continue...
+
+=== RSA Key Generation Complete ===
+
+Encryption:
+
+
+Welcome to the Interactive Hybrid Cryptosystem (RSA + AES)!
+Type 'G' to generate RSA keys, 'E' for encryption, or 'D' for decryption: E
+
+Enter the plaintext message to encrypt: dont open the window
+
+=== HYBRID ENCRYPTION PROCESS ===
+
+Press Enter to continue...
+
+Encrypting AES key using RSA...
+Encrypted AES Key (Base64 Encoded):
+ xgElQh7UpZzR6MXbanNHL4nesd6ibE8JAh7D2BVeZdX7cXyUVadOR1wOUhbWi2fbU6gq3uYNhUPToV4YavSazMRGfgr0sOPK7lldWmwfDpoyLKo/2rpu+J55WfVI8TTsecuGwgXinJHRs+G3W0zdwZvPAFbeOdfYytkGVB3liFpE2zKM7r91fq1+nNzJ8cJP7gPzrlgokcy+GgLEnxKzdAjigmdAXrO7n1zeXgCjqQmYveMw4jiRyHACbCb0UpUHAOLdMFhO/7qCE4rIkLoHdNETcIDnL5aV/vGaddOYOqsd3ZpUC6wNWmprqp51q8JhQNqr9D1bipjGJGLraePhOQ==
+
+Press Enter to continue...
+
+Encrypting message using AES...
+Encrypted Message (Base64 Encoded):
+ STqinc5a7Vbl6C52K/9Ba1wK46bNM68Lbd8PSyS/OI6Jwjo8SUBKVyVc9VBS4rv+
+
+Press Enter to continue...
+
+--- Simulating a bit error in the ciphertext ---
+Corrupted (Base64) Ciphertext:
+ RTqinc5a7Vbl6C52K/9Ba1wK46bNM68Lbd8PSyS/OI6Jwjo8SUBKVyVc9VBS4rv+
+
+--- Attempting to decrypt corrupted ciphertext with the same AES key ---
+
+Decrypting message using AES...
+Decrypted Message:
+ hont open the window
+
+Press Enter to continue...
+
+=== ENCRYPTION COMPLETE ===
+
+Encrypted AES Key (Send this to receiver): xgElQh7UpZzR6MXbanNHL4nesd6ibE8JAh7D2BVeZdX7cXyUVadOR1wOUhbWi2fbU6gq3uYNhUPToV4YavSazMRGfgr0sOPK7lldWmwfDpoyLKo/2rpu+J55WfVI8TTsecuGwgXinJHRs+G3W0zdwZvPAFbeOdfYytkGVB3liFpE2zKM7r91fq1+nNzJ8cJP7gPzrlgokcy+GgLEnxKzdAjigmdAXrO7n1zeXgCjqQmYveMw4jiRyHACbCb0UpUHAOLdMFhO/7qCE4rIkLoHdNETcIDnL5aV/vGaddOYOqsd3ZpUC6wNWmprqp51q8JhQNqr9D1bipjGJGLraePhOQ==
+
+Encrypted Message: STqinc5a7Vbl6C52K/9Ba1wK46bNM68Lbd8PSyS/OI6Jwjo8SUBKVyVc9VBS4rv+
+
+Decryption:
+
+
+Welcome to the Interactive Hybrid Cryptosystem (RSA + AES)!
+Type 'G' to generate RSA keys, 'E' for encryption, or 'D' for decryption: D
+
+Enter the encrypted AES key:
+xgElQh7UpZzR6MXbanNHL4nesd6ibE8JAh7D2BVeZdX7cXyUVadOR1wOUhbWi2fbU6gq3uYNhUPToV4YavSazMRGfgr0sOPK7lldWmwfDpoyLKo/2rpu+J55WfVI8TTsecuGwgXinJHRs+G3W0zdwZvPAFbeOdfYytkGVB3liFpE2zKM7r91fq1+nNzJ8cJP7gPzrlgokcy+GgLEnxKzdAjigmdAXrO7n1zeXgCjqQmYveMw4jiRyHACbCb0UpUHAOLdMFhO/7qCE4rIkLoHdNETcIDnL5aV/vGaddOYOqsd3ZpUC6wNWmprqp51q8JhQNqr9D1bipjGJGLraePhOQ==
+
+Enter the encrypted message:
+STqinc5a7Vbl6C52K/9Ba1wK46bNM68Lbd8PSyS/OI6Jwjo8SUBKVyVc9VBS4rv+
+
+=== HYBRID DECRYPTION PROCESS ===
+
+Press Enter to continue...
+
+Decrypting AES key using RSA...
+Decrypted AES Key (hex): 1d664741214f94a63d5f62c779fac0e4
+
+Press Enter to continue...
+
+Decrypting message using AES...
+Decrypted Message:
+ dont open the window
+
+Press Enter to continue...
+
+=== DECRYPTION COMPLETE ===
+
+Decrypted Message: dont open the window

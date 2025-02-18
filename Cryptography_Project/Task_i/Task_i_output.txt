@@ -1,0 +1,157 @@
+Encryption:
+
+══════════════════════════════════════════════════════════
+          Product Cipher: Playfair + Rail Fence
+══════════════════════════════════════════════════════════
+
+Type 'E' for encryption or 'D' for decryption: E
+
+Enter the Playfair key (e.g. MONARCHY, SECRET): CRYPTO
+
+Enter the number of rails for Rail Fence (e.g. 3): 2
+
+Enter the plaintext message to encrypt: dont open the window
+
+══════════════════════════════════════════════════════════
+      PRODUCT ENCRYPTION (Playfair -> Rail Fence)
+══════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════
+                  GENERATE PLAYFAIR TABLE
+══════════════════════════════════════════════════════════
+C R Y P T
+O A B D E
+F G H I K
+L M N Q S
+U V W X Z
+
+[Playfair] Prepared plaintext (after digram processing): DONTOPENTHEWINDOWX
+
+══════════════════════════════════════════════════════════
+               PLAYFAIR ENCRYPTION DETAILS
+══════════════════════════════════════════════════════════
+Processing digram 'DO' => positions: D:(r=1, c=3), O:(r=1, c=0) -> Same row -> 'EA'
+Processing digram 'NT' => positions: N:(r=3, c=2), T:(r=0, c=4) -> Rectangle rule -> 'SY'
+Processing digram 'OP' => positions: O:(r=1, c=0), P:(r=0, c=3) -> Rectangle rule -> 'DC'
+Processing digram 'EN' => positions: E:(r=1, c=4), N:(r=3, c=2) -> Rectangle rule -> 'BS'
+Processing digram 'TH' => positions: T:(r=0, c=4), H:(r=2, c=2) -> Rectangle rule -> 'YK'
+Processing digram 'EW' => positions: E:(r=1, c=4), W:(r=4, c=2) -> Rectangle rule -> 'BZ'
+Processing digram 'IN' => positions: I:(r=2, c=3), N:(r=3, c=2) -> Rectangle rule -> 'HQ'
+Processing digram 'DO' => positions: D:(r=1, c=3), O:(r=1, c=0) -> Same row -> 'EA'
+Processing digram 'WX' => positions: W:(r=4, c=2), X:(r=4, c=3) -> Same row -> 'XZ'
+
+[Playfair] Final Playfair ciphertext: EASYDCBSYKBZHQEAXZ
+
+══════════════════════════════════════════════════════════
+                RAIL FENCE ENCRYPTION
+══════════════════════════════════════════════════════════
+  Rail 0: ESDBYBHEX
+  Rail 1: AYCSKZQAZ
+
+[Rail Fence] Final Rail Fence ciphertext: ESDBYBHEXAYCSKZQAZ
+
+──────────────────────────────────────────────────────────
+ PRODUCT ENCRYPTION TIMING
+──────────────────────────────────────────────────────────
+Playfair encryption time:   0.004483 s
+Rail Fence encryption time: 0.000950 s
+Total encryption time:      0.005436 s
+
+Final Product Ciphertext: ESDBYBHEXAYCSKZQAZ
+
+===== ENCRYPTION COMPLETE =====
+
+══════════════════════════════════════════════════════════
+                SECURITY ANALYSIS OVERVIEW
+══════════════════════════════════════════════════════════
+- Playfair Cipher:
+  * Uses digram substitution (merging I and J).
+  * More secure than a simple Caesar cipher, but vulnerable
+    to frequency analysis on letter pairs.
+- Rail Fence Cipher:
+  * A basic transposition cipher that rearranges letters in a zigzag pattern,
+    making it susceptible to reconstruction attacks.
+- Product Cipher (Playfair -> Rail Fence):
+  * Combines substitution and transposition for added security,
+    though it remains a classical cipher by modern standards.
+
+
+Decryption:
+
+══════════════════════════════════════════════════════════
+          Product Cipher: Playfair + Rail Fence
+══════════════════════════════════════════════════════════
+
+Type 'E' for encryption or 'D' for decryption: D
+
+Enter the Playfair key (e.g. MONARCHY, SECRET): CRYPTO
+
+Enter the number of rails for Rail Fence (e.g. 3): 2
+
+Enter the ciphertext message to decrypt: ESDBYBHEXAYCSKZQAZ
+
+══════════════════════════════════════════════════════════
+      PRODUCT DECRYPTION (Rail Fence -> Playfair)
+══════════════════════════════════════════════════════════
+
+══════════════════════════════════════════════════════════
+                RAIL FENCE DECRYPTION
+══════════════════════════════════════════════════════════
+[Rail Fence] Marker matrix (before placing ciphertext):
+*.*.*.*.*.*.*.*.*.
+.*.*.*.*.*.*.*.*.*
+
+[Rail Fence] Matrix after placing ciphertext:
+E . S . D . B . Y . B . H . E . X .
+. A . Y . C . S . K . Z . Q . A . Z
+
+[Rail Fence] Final Rail Fence decryption result: EASYDCBSYKBZHQEAXZ
+
+══════════════════════════════════════════════════════════
+                  GENERATE PLAYFAIR TABLE
+══════════════════════════════════════════════════════════
+C R Y P T
+O A B D E
+F G H I K
+L M N Q S
+U V W X Z
+
+══════════════════════════════════════════════════════════
+               PLAYFAIR DECRYPTION DETAILS
+══════════════════════════════════════════════════════════
+Processing digram 'EA' => positions: E:(r=1, c=4), A:(r=1, c=1) -> Same row -> 'DO'
+Processing digram 'SY' => positions: S:(r=3, c=4), Y:(r=0, c=2) -> Rectangle rule -> 'NT'
+Processing digram 'DC' => positions: D:(r=1, c=3), C:(r=0, c=0) -> Rectangle rule -> 'OP'
+Processing digram 'BS' => positions: B:(r=1, c=2), S:(r=3, c=4) -> Rectangle rule -> 'EN'
+Processing digram 'YK' => positions: Y:(r=0, c=2), K:(r=2, c=4) -> Rectangle rule -> 'TH'
+Processing digram 'BZ' => positions: B:(r=1, c=2), Z:(r=4, c=4) -> Rectangle rule -> 'EW'
+Processing digram 'HQ' => positions: H:(r=2, c=2), Q:(r=3, c=3) -> Rectangle rule -> 'IN'
+Processing digram 'EA' => positions: E:(r=1, c=4), A:(r=1, c=1) -> Same row -> 'DO'
+Processing digram 'XZ' => positions: X:(r=4, c=3), Z:(r=4, c=4) -> Same row -> 'WX'
+
+[Playfair] Final Playfair decryption result: DONTOPENTHEWINDOWX
+
+──────────────────────────────────────────────────────────
+ PRODUCT DECRYPTION TIMING
+──────────────────────────────────────────────────────────
+Rail Fence decryption time: 0.002855 s
+Playfair decryption time:   0.005315 s
+Total decryption time:      0.008177 s
+
+Recovered Message: DONTOPENTHEWINDOWX
+
+===== DECRYPTION COMPLETE =====
+
+══════════════════════════════════════════════════════════
+                SECURITY ANALYSIS OVERVIEW
+══════════════════════════════════════════════════════════
+- Playfair Cipher:
+  * Uses digram substitution (merging I and J).
+  * More secure than a simple Caesar cipher, but vulnerable
+    to frequency analysis on letter pairs.
+- Rail Fence Cipher:
+  * A basic transposition cipher that rearranges letters in a zigzag pattern,
+    making it susceptible to reconstruction attacks.
+- Product Cipher (Playfair -> Rail Fence):
+  * Combines substitution and transposition for added security,
+    though it remains a classical cipher by modern standards.
