@@ -14,7 +14,6 @@ cryptography_project/
 ├── task_ii/
 │   ├── task_ii.py         # Implementation of RSA + AES hybrid encryption
 │   ├── task_ii_output.txt # Sample outputs for Task II
-├── README.md
 ```
 
 ## Installation
