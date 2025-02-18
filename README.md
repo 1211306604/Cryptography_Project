@@ -9,12 +9,12 @@ This project explores classical and modern cryptography by implementing:
 
 cryptography_project/
 ├── task_i/
-│   ├── task_i.py          # Playfair + Rail Fence cipher implementation
-│   ├── task_i_output.txt  # Sample outputs
+│   ├── task_i.py          # Implementation of Playfair + Rail Fence cipher
+│   ├── task_i_output.txt  # Sample outputs for Task I
 ├── task_ii/
-│   ├── task_ii.py         # RSA + AES hybrid encryption
-│   ├── task_ii_output.txt # Sample outputs
-├── README.md              # This file
+│   ├── task_ii.py         # Implementation of RSA + AES hybrid encryption
+│   ├── task_ii_output.txt # Sample outputs for Task II
+├── README.md
 
 
 ## Installation
@@ -32,7 +32,7 @@ python task_ii/task_ii.py
 Follow on-screen prompts for encryption and decryption.
 
 ## Contributions
-Developed by *KeyMasters*:
+Developed by *KeyMasters* each of us contributed 25%:
 - *Abdullah Omar Hamad Bin Afeef* – AES Implementation
 - *Al Refai, Al Baraa* – Rail Fence Cipher
 - *Asem Adel Ahmed Maroof* – RSA Implementation
